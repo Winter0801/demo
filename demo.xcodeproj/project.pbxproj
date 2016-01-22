@@ -15,6 +15,8 @@
 		9080A5501C4F6E5500A55DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9080A54E1C4F6E5500A55DC8 /* LaunchScreen.storyboard */; };
 		9080A55B1C4F6E5500A55DC8 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080A55A1C4F6E5500A55DC8 /* demoTests.m */; };
 		9080A5661C4F6E5500A55DC8 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080A5651C4F6E5500A55DC8 /* demoUITests.m */; };
+		9080A5771C4F6EBD00A55DC8 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080A5741C4F6EBD00A55DC8 /* SSKeychain.m */; };
+		9080A5781C4F6EBD00A55DC8 /* WXWKeyChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9080A5761C4F6EBD00A55DC8 /* WXWKeyChainTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9080A5611C4F6E5500A55DC8 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9080A5651C4F6E5500A55DC8 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		9080A5671C4F6E5500A55DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9080A5731C4F6EBD00A55DC8 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		9080A5741C4F6EBD00A55DC8 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		9080A5751C4F6EBD00A55DC8 /* WXWKeyChainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWKeyChainTool.h; sourceTree = "<group>"; };
+		9080A5761C4F6EBD00A55DC8 /* WXWKeyChainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWKeyChainTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		9080A53F1C4F6E5500A55DC8 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				9080A5731C4F6EBD00A55DC8 /* SSKeychain.h */,
+				9080A5741C4F6EBD00A55DC8 /* SSKeychain.m */,
+				9080A5751C4F6EBD00A55DC8 /* WXWKeyChainTool.h */,
+				9080A5761C4F6EBD00A55DC8 /* WXWKeyChainTool.m */,
 				9080A5431C4F6E5500A55DC8 /* AppDelegate.h */,
 				9080A5441C4F6E5500A55DC8 /* AppDelegate.m */,
 				9080A5461C4F6E5500A55DC8 /* ViewController.h */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9080A5481C4F6E5500A55DC8 /* ViewController.m in Sources */,
+				9080A5771C4F6EBD00A55DC8 /* SSKeychain.m in Sources */,
 				9080A5451C4F6E5500A55DC8 /* AppDelegate.m in Sources */,
 				9080A5421C4F6E5500A55DC8 /* main.m in Sources */,
+				9080A5781C4F6EBD00A55DC8 /* WXWKeyChainTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

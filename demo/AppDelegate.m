@@ -7,15 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "WXWKeyChainTool.h"
 
 @interface AppDelegate ()
-
+{
+    NSString *uuidString;
+}
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    WXWKeyChainTool * tool=[WXWKeyChainTool new];
+    
+    uuidString= [tool getUUID];
+    
+    NSLog(@"始终不会改变的uuid：%@",uuidString);
+
     // Override point for customization after application launch.
     return YES;
 }
